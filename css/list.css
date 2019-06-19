@@ -1,0 +1,164 @@
+.sk {
+	position: absolute;
+	top: 41px;
+	left: 183px ;
+	height: 33px;
+	border-left: 1px solid #b1191a;
+	padding: 5px 0 0 15px;
+}
+.sk_list,
+ .sk_con {
+	float:left;
+	line-height: 47px;
+}
+.sk_list li {
+	float: left ;
+	margin:0 26px;
+	font-size: 16px;
+	font-weight: 700 ;
+}
+.sk_list li a{
+	color:#000;
+}
+.sk_list li a:hover {
+	color:#e33333;
+}
+.sk_con li {
+	float: left ;
+	margin:0 22px;
+	font-size: 14px;
+}
+.sk_con li i {
+	font-family: 'iconfont'
+}
+/*主体盒子 start*/
+.sk_bd ul {
+	width: 1220px;
+}
+/*产品*/
+.sk_goods {
+	position: relative;
+	float:left;
+	overflow: hidden;
+	width: 288px;
+	height: 458px;
+	border:1px solid transparent;
+	margin-right: 12px;
+	margin-bottom: 10px;
+}
+.sk_goods:hover {
+	border:1px solid #ed282e;  
+}
+.sk_goods img {
+	transition: all 0.3s ;
+}
+.sk_goods img:hover {
+	margin-left: 20px;
+}
+
+/*标题*/
+.sk_goods_title {
+	font-size: 14px;
+	color: #666;
+	font-weight: 400 ;
+	padding:21px 12px 0;
+	transition: all 0.4s;
+}
+.sk_goods:hover .sk_goods_title {
+	padding: 10px 12px 0;	
+}
+/*价格*/
+.sk_goods_price {
+	padding: 19px 12px;
+	transition: all 0.4s ;
+}
+.sk_goods:hover .sk_goods_price {
+	padding :8px 12px 0 12px;	
+}
+.sk_goods_price em {
+	font-size: 22px;
+	color:#e60012;
+}
+.sk_goods_price del {
+	font-size: 14px;
+	color:#a4a4a4;
+	font-weight: 700 ;
+}
+/*导航条*/
+.sk_goods_progress{
+	padding:0 12px;
+	margin-bottom: 8px;
+}
+.bar {
+	display: inline-block;
+	width: 133px;
+	height: 10px;
+	border:1px solid #ed282e;
+	vertical-align: middle;
+	margin:0 5px;
+	border-radius: 5px;
+}
+.bar_in {
+	width: 87%;
+	height: 100%;
+	background-color: #ed282e;
+}
+.sk_goods_progress i,
+.sk_goods_progress em
+ {
+	color: #e12228 ;
+}
+/*立即抢购链接*/
+.sk_goods_buy {
+	position: absolute;
+	bottom: -50px;
+	left: 0 ;
+/*	display: inline-block;*/
+	width: 100%;
+	height: 50px;
+	background-color: #b1191a;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	color:#fff;
+	transition: all 0.4s;
+}
+.sk_goods:hover .sk_goods_buy {
+	bottom:0;
+}
+.page {
+	text-align: center;
+	margin: 40px 0;
+}
+.page_num a {
+	display: inline-block;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #ccc ;
+	background-color: #f5f5f5;
+	line-height: 36px;
+}
+.page_num .pn_prev,
+.page_num .pn_next{
+	width: 80px;
+}
+.page_num .current,
+.page_num .dotted {
+	border: 1px solid transparent;
+	background-color: #fff;
+}
+.page_skip input {
+	width: 50px;
+	height: 36px;
+	border: 1px solid #ccc ;
+	transition: all .4s ;
+}
+input:focus {
+	width: 80px;
+}
+.page_skip button {
+	width: 70px ;
+	height: 36px ;
+	border: 1px solid #ccc ;
+	background-color: #f5f5f5;
+}

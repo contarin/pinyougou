@@ -1,0 +1,343 @@
+.search {
+    left: 660px;
+}
+
+.shopping {
+    position: absolute;
+    top: 35px;
+    left: 190px;
+    font-size: 19px;
+    color: #333;
+}
+
+
+/*结算*/
+
+.calculate h3 {
+    height: 40px;
+    font-size: 16px;
+    color: #c81623;
+}
+
+.calculate_hd {
+    position: relative;
+    height: 34px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    line-height: 34px;
+    padding-left: 5px;
+}
+
+.calculate_hd input {
+    position: absolute;
+    top: 11px;
+    left: 5px;
+}
+
+.calculate_hd i {
+    padding-left: 20px;
+    padding-right: 190px;
+}
+
+.calculate_hd em {
+    padding-left: 20px;
+    padding-right: 316px;
+}
+
+.calculate_hd span {
+    padding-right: 120px;
+}
+
+.calculate_hd .last {
+    padding-right: 80px;
+}
+
+.calculate_tit {
+    position: relative;
+    height: 43px;
+    border-bottom: 2px solid #ccc;
+}
+
+.calculate_tit input {
+    position: absolute;
+    bottom: 7px;
+    left: 7px;
+}
+
+.calculate_tit p {
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    width: 55px;
+    height: 18px;
+    background-color: #c81623;
+    color: #fff;
+    text-align: center;
+}
+
+.calculate_tit span,
+.calculate_tit i {
+    position: absolute;
+}
+
+.calculate_tit span {
+    top: 15px;
+    right: 110px;
+}
+
+.calculate_tit i {
+    top: 15px;
+    right: 0;
+    color: #c81623;
+}
+
+.calulate_product {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.product_first {
+    position: relative;
+    height: 92px;
+    border-bottom: 1px solid #ccc;
+    padding-top: 14px;
+    padding-left: 5px;
+}
+
+.product_first input {
+    float: left;
+}
+
+.product_first img {
+    float: left;
+    vertical-align: top;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+}
+
+.product_first p {
+    float: left;
+    margin-left: 5px;
+    width: 396px;
+    line-height: 20px;
+}
+
+.product_first h6 {
+    float: left;
+    margin-left: 85px;
+}
+
+.number {
+    float: left;
+    width: 97px;
+    height: 25px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 93px;
+}
+
+.number .reduce {
+    float: left;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    border-right: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.number .add {
+    float: right;
+    display: inline-block;
+    width: 30px;
+    height: 25px;
+    border-left: 1px solid #ccc;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.number input {
+    width: 35px;
+    height: 25px;
+    border: 0;
+    text-align: center;
+}
+
+.product_first .del {
+    float: right;
+    margin-right: 82px;
+}
+
+.product_first_item {
+    background-color: #ccc;
+}
+
+.product_first i {
+    position: absolute;
+    top: 32px;
+    right: 22px;
+}
+
+.product_first em {
+    position: absolute;
+    bottom: 28px;
+    left: 128px;
+    width: 100px;
+    height: 17px;
+    background: url(../img/lipin.png) no-repeat left center;
+    padding-left: 20px;
+}
+
+.product_del {
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.del-l {
+    float: left;
+    height: 50px;
+    width: 500px;
+    position: relative;
+    padding-left: 27px;
+}
+
+.del-l input {
+    position: absolute;
+    top: 19px;
+    left: 5px;
+}
+
+.del-l a {
+    display: inline-block;
+    padding: 16px 10px;
+}
+
+.del-r {
+    position: relative;
+    height: 50px;
+    width: 420px;
+    float: right;
+}
+
+.del-r p {
+    width: 300px;
+    padding-top: 5px;
+}
+
+.del-r p em,
+.del-r p i {
+    color: #e60012;
+}
+
+.del-r p i {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.del-r span {
+    padding-left: 143px;
+}
+
+.del-r span em {
+    color: #e60012;
+}
+
+.del-r a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50px;
+    width: 109px;
+    background-color: #e60012;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.like {
+    height: 370px;
+    margin-top: 20px;
+}
+
+.like-hd {
+    height: 39px;
+    background-color: #f1f1f1;
+}
+
+.like-hd li {
+    height: 39px;
+    line-height: 39px;
+    text-align: center;
+    float: left;
+    padding: 0 20px;
+}
+
+.like-hd li.current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+.like-bd {
+    position: relative;
+    height: 308px;
+}
+
+.like-bd ul {
+    height: 310px;
+    width: 990px;
+    border: 1px dashed #ccc;
+    margin: 20px 20px 0 40px;
+}
+
+.like-bd li {
+    float: left;
+    height: 308px;
+    width: 246px;
+    border-right: 1px dashed #ccc;
+    text-align: center;
+}
+
+.like-bd .like_hd_last {
+    border-right: 0;
+}
+
+.like-bd li i {
+    margin-top: 10px;
+    display: block;
+    color: #e01f4c;
+}
+
+.like-bd li a {
+    display: inline-block;
+    width: 112px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 14px;
+    padding-left: 10px;
+    background: url(../img/car.png) no-repeat 10px center;
+}
+
+.like-l,
+.like-r {
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    width: 20px;
+    height: 50px;
+    background-color: #ddd;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.like-l {
+    left: 0;
+}
+
+.like-r {
+    right: 0;
+}

@@ -1,0 +1,107 @@
+.header {
+  border:0;
+}
+.banner {
+  height: 486px;
+  background: url(../img/banner.jpg) repeat center;
+}
+.log {
+  float:right;
+  width: 310px;
+  height: 363px;
+  background-color: #fff;
+  margin-top:62px;
+  padding:0 35px;
+}
+.log-bd {
+  height: 65px;
+}
+.log-bd ul {
+  padding:20px 0;
+  font-size: 18px;
+
+}
+.log-bd li {
+  cursor: pointer;
+}
+.log-bd-l {
+  float: left;
+  width: 141px;
+  height: 23px;
+  border-right: 1px solid #ccc;
+  padding-left: 10px;
+}
+.log-bd-r {
+  float: right;
+  width: 86px;
+  height: 23px;
+  padding-left: 65px;
+}
+.log-bd li.current {
+  color:#c81623;
+}
+
+.hint {
+  height: 24px;
+  background-color: #fffdee;
+  border: 1px solid #f5eecf;
+  line-height: 24px;
+  padding-left: 10px;
+}
+
+.user,
+ .pwd{
+  height: 34px ;
+  border: 1px solid #3aa2e4;
+  margin-top: 10px;
+}
+.pwd {
+  margin-top:20px;
+}
+.user img,
+.pwd img{
+  float: left;
+  vertical-align: top;
+}
+.user input,
+.pwd input{
+  float: left;
+  width: 261px;
+  height: 34px;
+  border: 0;
+  padding-left:10px;
+  color:#b3b3b3;
+}
+/*登录方式*/
+.log_way {
+  margin-top: 20px;
+  color:#b3b3b3;
+}
+.log_way input {
+  vertical-align: middle;
+}
+.log_way a {
+  float: right;
+  padding-right: 5px;
+}
+.btn input{
+  width: 100%;
+  height: 40px;
+  background-color: #c81623;
+  text-align: center;
+  line-height: 40px;
+  font-size: 16px;
+  color:#fff;
+  margin-top: 20px;
+  border: 0;
+  cursor: pointer;
+}
+.lianjie {
+  margin-top: 20px;
+}
+.lianjie a {
+  float: right;
+  padding: 5px 10px 0 0;
+  font-size: 14px;
+  color:#1474af;
+}

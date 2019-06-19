@@ -1,0 +1,257 @@
+.order_information_hd {
+	height: 38px;
+	font-size: 16px;
+}
+.order_information_bd {
+	padding:0 26px;
+	height: 787px;
+	border: 1px solid #ccc;
+}
+.recipient_information {
+	position: relative;
+	height: 115px;
+	border-bottom: 1px solid #ccc;
+}
+.recipient_information h4 {
+	margin: 40px 0 20px 20px;
+	font-size: 15px;
+}
+.recipient_information span {
+	display: inline-block;
+	width: 140px;
+	height: 26px;
+	text-align: center;
+	line-height: 26px;
+	border: 2px solid #cf132c;
+	margin-left: 45px;
+	margin-right: 10px;
+}
+.recipient_information p {
+	margin-left: 45px;
+	margin-top: 15px;
+	font-family: 'iconfont'
+}
+.recipient_information em {
+	position: absolute;
+	top: 0 ;
+	right:32px ;
+
+}
+.recipient_information em a {
+	color:#1576a3;
+}
+.site {
+	height: 69px;
+	border-bottom: 1px solid #ccc;
+}
+.site span {
+	display: inline-block;
+	width: 143px;
+	height: 28px;
+	border:1px solid #ccc;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 5px;
+}
+.payment {
+	height: 85px;
+	border-bottom: 1px solid #ccc;
+}
+.payment h4 {
+	margin: 18px 0 15px 20px;
+	font-size: 15px;
+}
+.payment span {
+	float: left;
+	display: inline-block;
+	height: 27px;
+	width: 96px;
+	border: 1px solid #ccc;
+	line-height: 27px;
+	text-align: center;
+}
+.payment .payment-first {
+	border-right: 0 ;
+}
+.payment .payment-last {
+	height: 25px;
+	margin-left: 8px;
+	border: 2px solid #c71521;
+}
+.payment i {
+	display: inline-block;
+	margin-left: 20px;
+	padding-top: 5px;
+	font-family: 'iconfont' ;
+}
+.inventory {
+	height: 56px;
+	line-height: 56px;
+	font-size: 16px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+.delivery-hd {
+	position: relative;
+	height: 100px;
+	background-color: #f4f4f4;
+}
+.delivery-hd h5{
+	padding-top: 16px;
+	padding-left: 26px;
+}
+.delivery-hd span {
+	display: inline-block;
+	width: 140px;
+	height: 26px;
+	border: 2px solid #c71521;
+	text-align: center;
+	line-height: 26px;
+	margin-top: 18px;
+	margin-left: 44px;
+}
+.delivery-hd i {
+	margin-left: 40px;
+}
+.delivery-hd em a{
+	position: absolute;
+	bottom: 22px ;
+	right: 35px ;
+	color:#1576a3;
+}
+
+.delivery-bd {
+	position: relative;
+	height: 154px;
+	background-color: #fdedee;
+	margin-top: 2px;
+}
+.delivery-bd h5{
+	width: 100px;
+	padding-top: 16px;
+	padding-left: 26px;
+}
+.delivery-bd img {
+	border: 1px solid #ccc;
+	margin-left: 44px;
+	margin-top: 20px;
+	vertical-align: top;
+}
+.delivery-bd span {
+	display: inline-block;
+	width: 335px;
+	margin-left: 100px;
+	margin-top: 16px;
+	line-height: 23px;
+}
+.delivery-bd i {
+	position: absolute;
+	bottom: 25px ;
+	left: 229px;
+	color: #c81623;
+}
+.delivery-bd p {
+	float: right;
+	margin-right: 35px;
+	margin-top: 20px;
+}
+.delivery-bd p em {
+	margin:0 60px;
+}
+.delivery-bd p strong {
+	font-weight: 400;
+	color:#c81623;
+}
+.invoice {
+	height: 120px;
+	border-top: 1px solid #ccc;
+	margin-top: 20px;
+}
+.invoice h5{
+	font-size: 14px;
+	color: #333;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+.invoice p {
+	margin-left: 70px;
+	margin-top: 18px;
+}
+.invoice span {
+	margin: 0 25px;
+}
+.invoice a {
+	margin-left:22px;
+	color:#1474af;
+}
+.invoice .discounts {
+	display: block;
+	font-size: 14px;
+	color: #333;
+	margin-left: 50px;
+	margin-top: 15px;
+	font-family: 'iconfont';
+}
+.cost {
+	height: 73px;
+	padding-top: 20px;
+}
+.cost dl {
+	float: right;
+	padding-right: 32px;
+}
+.cost dt,
+.cost dd{
+	float: left;
+}
+.cost dt {
+	margin-right: 80px;
+}
+.cost .return_money dt {
+	margin-right: 96px;
+}
+.cost dd i {
+	color:#c81623;
+}
+.money {
+	position: relative;
+	height: 70px;
+	border:1px solid #ccc;
+	background-color: #f4f4f4;
+}
+.money p {
+	float:right;
+	padding-top: 10px;
+
+}
+.money p i {
+	margin-left: 41px;
+	margin-right: 30px;
+	font-size: 16px;
+	color:#e60012;
+}
+.money span {
+	position: absolute;
+	right: 27px ;
+	bottom: 20px ;
+	color: #999;
+}
+.submit {
+	position: relative;
+	height: 80px;
+}
+.submit input {
+	position: absolute;
+	right:25px ;
+	top:28px ;
+	width: 143px;
+	height: 47px;
+	background-color: #df3033;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 47px;
+	border: 0;
+}

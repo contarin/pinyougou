@@ -1,0 +1,370 @@
+/*main 主体模块  start*/
+
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+
+/*焦点图片模块*/
+
+.focus {
+    position: relative;
+    float: left;
+    width: 720px;
+    height: 455px;
+    overflow: hidden;
+}
+
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000%;
+}
+
+.focus ul li {
+    float: left;
+    width: 720px;
+    height: 455px;
+}
+
+.focus ul li img {
+    width: 100%;
+    height: 455px;
+}
+
+
+/*焦点图图样式*/
+
+.focus-l,
+.focus-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 25px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.focus-r {
+    right: 0;
+    text-align: right;
+    border-radius: 20px 0 0 20px;
+}
+
+.focus-l {
+    left: 0;
+    border-radius: 0 20px 20px 0;
+}
+
+.focus-r:hover,
+.focus-l:hover {
+    color: #ff3040;
+}
+
+.focus-b .circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+    width: 144px;
+    height: 12px;
+}
+
+.focus-b .circle li {
+    float: left;
+    width: 6px;
+    height: 6px;
+    margin-right: 5px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    /*鼠标变成小手*/
+    cursor: pointer;
+}
+
+.focus-b li.current {
+    background-color: #fff;
+}
+
+.focus-b li:hover:after {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 16px;
+    margin: -5px 0 0 -5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+}
+
+
+/* .focus-b li:hover {
+    background-color: #fff;
+} */
+
+
+/*新闻快报模块*/
+
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+
+.news {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+
+.news-hd {
+    height: 32px;
+    border-bottom: 1px dotted #ccc;
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.news-hd a {
+    float: right;
+    font-size: 12px;
+    font-family: 'iconfont';
+}
+
+.news-bd {
+    padding: 10px 0 0 15px;
+}
+
+.news-bd li {
+    height: 23px;
+}
+
+.lifeservice {
+    overflow: hidden;
+    height: 208px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.lifeservice ul {
+    width: 252px;
+}
+
+.lifeservice li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.lifeservice li a {
+    display: block;
+    overflow: hidden;
+    height: 100%;
+}
+
+.lifeservice li p {
+    text-align: center;
+}
+
+.service_ico {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/icons.png) no-repeat;
+    margin: 10px auto;
+}
+
+.service_ico_huafei {
+    background-position: -17px -16px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 5px;
+}
+
+
+/*recommend 推荐模块 start */
+
+.recommend {
+    margin-top: 10px;
+    height: 161px;
+}
+
+.recom-hd {
+    float: left;
+    width: 207px;
+    height: 100%;
+    background: #5c5251 url(../img/tuijian.png) no-repeat center;
+}
+
+.recom-bd {
+    float: left;
+    width: 993px;
+    height: 100%;
+}
+
+.recom-bd a {
+    display: inline-block;
+    float: left;
+    height: 100%;
+    width: 248px;
+}
+
+.recom-bd a img {
+    width: 248px;
+    height: 161px;
+}
+
+
+/*recommend 推荐模块 end*/
+
+
+/*floor 楼层区 strat*/
+
+.box-hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 27px;
+}
+
+.box-hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab-list {
+    float: right;
+    height: 30px;
+}
+
+.tab-list li {
+    line-height: 30px;
+    float: left;
+}
+
+.tab-list li a {
+    margin: 0 15px;
+}
+
+.tab-con {
+    height: 360px;
+}
+
+.w209 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.w329 {
+    width: 329px;
+    position: relative;
+}
+
+.w219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+
+.tab-con li {
+    float: left;
+    height: 360px;
+}
+
+.tab-con-item {
+    border-bottom: 1px solid #ccc;
+}
+
+.tab-con-list {
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.tab-con-list li {
+    width: 86px;
+    height: 31px;
+    line-height: 31px;
+    text-align: center;
+    margin-left: 12px;
+    border-bottom: 1px solid #ededed;
+}
+
+.dot ul {
+    position: absolute;
+    bottom: 6px;
+    left: 139px;
+    float: left;
+    width: 60px;
+    height: 20px;
+}
+
+.dot ul li {
+    width: 13px;
+    height: 13px;
+    float: left;
+    margin-right: 5px;
+    background-color: #3e3e3e;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.dot .dot-white {
+    background-color: #fff;
+}
+
+.box-bd li {
+    overflow: hidden;
+}
+
+.box-bd img {
+    transition: all 0.2s;
+}
+
+.box-bd img:hover {
+    margin-left: 8px;
+}
+
+.banner {
+    height: 64px;
+    margin-top: 10px;
+}
+
+
+/*侧导航定位 模块start*/
+
+.fixedtool {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    margin-left: -680px;
+    width: 67px;
+}
+
+.fixedtool li {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 1px solid #ededed;
+    cursor: pointer;
+}
+
+.fixedtool li.current {
+    background-color: #c81623;
+    color: #fff;
+}
+
+
+/*侧导航定位 模块end*
